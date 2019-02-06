@@ -85,9 +85,9 @@ http://ServerName:8080/api/language
 </p>
 
 Calls the different cores
-+ http://ServerName:8080/api/language/r?json={}
-+ http://ServerName:8080/api/language/python?json={}
-+ http://ServerName:8080/api/language/powershell?json={}
+http://ServerName:8080/api/language/r?json={}</br>
+http://ServerName:8080/api/language/python?json={}</br>
+http://ServerName:8080/api/language/powershell?json={}</br>
 
 Each call provides this basic information
 
