@@ -16,9 +16,17 @@ R and Python code for advanced analytics has latency between milli-seconds and s
 ## Installation
 All commands are executed from the command line in administrative mode:
 
---install (installs the service)
---uninstall (uninstalls the service)
---cmd (starts the program as a Windows command line app)
++ --install (installs the service)
++ --uninstall (uninstalls the service)
++ --cmd (starts the program as a Windows command line app)
+
+In addition, the following software has has to be installed:
+
+[R Version 5.2.2, 64bit](https://cran.r-project.org/bin/windows/base/R-3.5.2-win.exe)
+[Python Version 3.7.2, 64 bit](https://www.python.org/ftp/python/3.7.2/python-3.7.2-amd64.exe)
+
+It is recommended to install bot program under the Windows x64 directory: C:\Program Files\
+
 
 ## Configuration
 The service is configured using a JSON file in the instal, directory named "Analytic.Server.json".
