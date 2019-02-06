@@ -108,9 +108,56 @@ Each call provides this basic information
 
 The following data model is used to submit calculations to the web service and retrieve responses.
 
-Dimension Enum:
-        Value = 0 
-        Vector = 1
-        Matrix = 2
-        Frame = 3
+###Dimension Settings:</br>
+**Value = 0**</br> 
+**Vector = 1**</br>
+**Matrix = 2**</br>
+Frame = 3</br>
+</br>
+###Language Type Stteings:</br>
+None = 0</br>
+**R = 1**</br>
+**Python = 2**</br>
+PowerShell = 3</br>
+</br>
+###OperationType Settings</br>
+None = 0</br>
+**Push = 1**</br>
+**Pull = 2**</br>
+**Execute = 3**</br>
+Information = 4</br> 
+Error = 5</br>
+Stop = 6</br>
+</br>
+###ValueType Settings:</br>
+None = 0</br>
+**Double = 1**</br>
+**Int = 2**</br>
+**String = 3**</br>
+**Bool = 4**</br>
+Frame = 5</br>
+</br>
+###Operation Settings:</br>
+double? DoubleValue</br>
+int? IntValue</br>
+string StringValue</br>
+bool? BoolValue</br>
+double[] DoubleVector</br>
+int[] IntVector</br>
+string[] StringVector</br>
+bool[] BoolVector</br>
+DateTime[] TimeVector</br>
+double[,] DoubleMatrix</br>
+int[,] IntMatrix</br>
+string[,] StringMatrix</br>
+bool[,] BoolMatrix</br>
+Frame Frame</br>
+OperationType Type</br>
+ValueType ValueType</br>
+Dimension Dimension</br>
+string Command</br>
+string</br>
+string Message</br> 
+
+###Sequence Definition
 
