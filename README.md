@@ -84,7 +84,7 @@ http://ServerName:8080/api/language
   <img src="Image/Web Service Available Cores.PNG">
 </p>
 
-Calls the different cores
+Calls the different cores</br>
 http://ServerName:8080/api/language/r?json={}</br>
 http://ServerName:8080/api/language/python?json={}</br>
 http://ServerName:8080/api/language/powershell?json={}</br>
