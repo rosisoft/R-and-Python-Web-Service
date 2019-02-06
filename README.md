@@ -20,7 +20,9 @@ The web service is hosted on Windows OS. The address and port are configurable, 
 Shows the supported script Modules
 http://ServerName:8080/api/language
 
-![Module List](../Image/ListModules.PNG)
+<p align="center">
+  <img src="Image/ListModules.PNG">
+</p>
 
 Calls the different cores
 + http://ServerName:8080/api/language/r?json={}
