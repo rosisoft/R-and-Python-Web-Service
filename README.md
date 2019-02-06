@@ -29,7 +29,7 @@ Calls the different cores
 + http://ServerName:8080/api/language/python?json={}
 + http://ServerName:8080/api/language/powershell?json={}
 
-Each call provides thos basic information
+Each call provides this basic information
 
 
 
