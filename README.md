@@ -188,4 +188,4 @@ A simple calculation such as c = a + b can be translated into the following 4 op
 
 The JSON looks then like this:
 
-http://tqs-dev-taac01:8080/api/language/r?json={Operations:[{Type:1,DoubleValue:1,Name:a},{Type:1,DoubleValue:2,Name:b},{Type:3,Command:c=sum(a,b)},{Type:2,Dimension:0,ValueType:1,Name:c}],Language:R} 
+http://ServerName:8080/api/language/r?json={Operations:[{Type:1,DoubleValue:1,Name:a},{Type:1,DoubleValue:2,Name:b},{Type:3,Command:c=sum(a,b)},{Type:2,Dimension:0,ValueType:1,Name:c}],Language:R} 
