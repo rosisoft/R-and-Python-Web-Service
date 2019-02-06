@@ -171,3 +171,21 @@ int? QueueLength</br>
 string ClientId</br>
 string CoreId</br>
 
+## Quick Start
+
+The Web service does not require the entire data model for each operation and just a few parameter are needed for basic operations. The main idea is that each calculation can be divided into the following 3 operation types:</br>
+
++ Push; submite data such as bool, int, double or string to the server
++ Execute; execute a script or function
++ Pull; retrieve results from the server
+
+A simple calculation such as c = a + b can be translated into the following 4 operations:
+
++ Push a
++ Push b
++ Execute c = a + b
++ Pull c
+
+The JSON looks then like this:
+
+http://tqs-dev-taac01:8080/api/language/r?json={Operations:[{Type:1,DoubleValue:1,Name:a},{Type:1,DoubleValue:2,Name:b},{Type:3,Command:c=sum(a,b)},{Type:2,Dimension:0,ValueType:1,Name:c}],Language:R} 
