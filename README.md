@@ -15,4 +15,10 @@ R and Python code for advanced analytics has latency between milli-seconds and s
 
 ## Web Service Endpoints
 
+The web service is hosted on Windows OS. The address and port are configurable, the following end points are supported:
+
+http://ServerName:8080/api/language
+
+Shows the supported script Modules.
+
 
