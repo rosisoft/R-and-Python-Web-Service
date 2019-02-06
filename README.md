@@ -108,19 +108,19 @@ Each call provides this basic information
 
 The following data model is used to submit calculations to the web service and retrieve responses.
 
-###Dimension Settings:</br>
+### Dimension</br>
 **Value = 0**</br> 
 **Vector = 1**</br>
 **Matrix = 2**</br>
 Frame = 3</br>
 </br>
-###Language Type Stteings:</br>
+### LanguageType</br>
 None = 0</br>
 **R = 1**</br>
 **Python = 2**</br>
 PowerShell = 3</br>
 </br>
-###OperationType Settings</br>
+### OperationType</br>
 None = 0</br>
 **Push = 1**</br>
 **Pull = 2**</br>
@@ -129,7 +129,7 @@ Information = 4</br>
 Error = 5</br>
 Stop = 6</br>
 </br>
-###ValueType Settings:</br>
+###ValueType</br>
 None = 0</br>
 **Double = 1**</br>
 **Int = 2**</br>
@@ -137,7 +137,7 @@ None = 0</br>
 **Bool = 4**</br>
 Frame = 5</br>
 </br>
-###Operation Settings:</br>
+###Operation</br>
 double? DoubleValue</br>
 int? IntValue</br>
 string StringValue</br>
@@ -159,5 +159,15 @@ string Command</br>
 string</br>
 string Message</br> 
 
-###Sequence Definition
+### Sequence
+List<Operation> Operations</br>
+double? ServiceTime</br>
+double? CoreTime</br>
+double? ExecutionTime</br>
+LanguageType Language</br>
+string UniqueId</br>
+string Message</br>
+int? QueueLength</br>
+string ClientId</br>
+string CoreId</br>
 
