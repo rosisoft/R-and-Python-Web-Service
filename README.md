@@ -6,7 +6,7 @@ There are several web services avalaible for R and Python, but there isn't a sol
 
 1. The Web Service has to be installed as a Windows Service
 2. The service has to be self hosted with a simple install\uninstall mode
-3. The calculation has to support multi core or threads
+3. The calculation has to support multi core or threads</br>
 R and Python code for advanced analytics has latency between milli-seconds and seconds and a single instance cannot scale to hundreds of consumers
 4. Simple end points with only oine GET operation and JSON data input
 5. Performance metrics such as service and execution latencies
@@ -71,6 +71,15 @@ The following shows an example:
 }
 
 ```
+The JSON contains both the configuration for the server and the script cores. The server requires to specify both the **address** and the **port**. Each core provides the following configuration items:</br>
+"Executable" - Name of the core exe</br>
+"ExecutablePath" - Installation path of the web service</br>
+"CorePath1" - Configuration path; needs to be specified for R</br>
+"CorePath2" - Configuration path; needs to be specified for R</br>
+"WorkingDirectory" - Working directory for scripts</br>
+"StartUpScripts" - List of start-up scripts that need to be executed when the core is initialized</br>
+"Cores" - **Number of core or threads for calculations**</br>
+"Language" - Enum specifying the scriping language</br>
 
 
 ## Web Service Endpoints
