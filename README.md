@@ -20,7 +20,7 @@ The web service is hosted on Windows OS. The address and port are configurable, 
 Shows the supported script Modules
 http://ServerName:8080/api/language
 
-![Drag Racing](https://github.com/rosisoft/R-and-Python-Web-Service/tree/master/Image/ListModules.PNG)
+![Module List](../Image/ListModules.PNG)
 
 Calls the different cores
 + http://ServerName:8080/api/language/r?json={}
