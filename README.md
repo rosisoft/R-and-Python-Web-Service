@@ -21,7 +21,7 @@ Shows the supported script Modules
 http://ServerName:8080/api/language
 
 <p align="center">
-  <img src="Image/ListModules.PNG">
+  <img src="Image/Web Service Available Cores.PNG">
 </p>
 
 Calls the different cores
@@ -31,5 +31,8 @@ Calls the different cores
 
 Each call provides this basic information
 
+<p align="center">
+  <img src="Image/Web Service Result.PNG">
+</p>
 
 
