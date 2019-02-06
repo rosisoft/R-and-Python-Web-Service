@@ -17,14 +17,15 @@ R and Python code for advanced analytics has latency between milli-seconds and s
 
 The web service is hosted on Windows OS. The address and port are configurable, the following end points are supported:
 
+Shows the supported script Modules
 http://ServerName:8080/api/language
 
-Shows the supported script Modules.
-
+Calls the different cores
 + http://ServerName:8080/api/language/r?json={}
 + http://ServerName:8080/api/language/python?json={}
 + http://ServerName:8080/api/language/powershell?json={}
 
+Each call provides thos basic information
 
 
 
