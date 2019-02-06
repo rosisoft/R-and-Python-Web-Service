@@ -129,7 +129,7 @@ Information = 4</br>
 Error = 5</br>
 Stop = 6</br>
 </br>
-###ValueType</br>
+### ValueType</br>
 None = 0</br>
 **Double = 1**</br>
 **Int = 2**</br>
@@ -137,7 +137,7 @@ None = 0</br>
 **Bool = 4**</br>
 Frame = 5</br>
 </br>
-###Operation</br>
+### Operation</br>
 double? DoubleValue</br>
 int? IntValue</br>
 string StringValue</br>
