@@ -13,6 +13,58 @@ R and Python code for advanced analytics has latency between milli-seconds and s
 6. Minimize client-server latency; the data model should support the push-execute-pull sequence
 7. Unified data model across different scripting languages; currently these are R, Python and PowerShell(beta)
 
+## Installation
+All commands are executed from the command line in administrative mode:
+
+--install (installs the service)
+--uninstall (uninstalls the service)
+--cmd (starts the program as a Windows command line app)
+
+## Configuration
+The service is configured using a JSON file in the instal, directory named "Analytic.Server.json".
+The following shows an example:
+```json
+{
+  "Port": 8080,
+  "Address": "http://ServerName",
+  "Cores": [
+    {
+      "Executable": "r.core.exe",
+      "ExecutablePath": "C:\\Program Files\\Analytic.WebService\\",
+      "CorePath1": "C:\\Program Files\\R\\R-3.5.2\\bin\\x64",
+      "CorePath2": "C:\\Program Files\\R\\R-3.5.2",
+      "WorkingDirectory": "C:/Temp",
+      "StartUpScripts": [
+      ],
+      "Cores": 3,
+      "Language": 1
+    },
+    {
+      "Executable": "python.core.exe",
+      "ExecutablePath": "C:\\Program Files\\Analytic.WebService\\",
+      "CorePath1": "C:\\Program Files\\Python\\Python36",
+      "CorePath2": null,
+      "WorkingDirectory": "C:/Temp",
+      "StartUpScripts": null,
+      "Cores": 3,
+      "Language": 2
+    },
+    {
+      "Executable": "powershell.core.exe",
+      "ExecutablePath": "C:\\Program Files\\Analytic.WebService\\",
+      "CorePath1": null,
+      "CorePath2": null,
+      "WorkingDirectory": null,
+      "StartUpScripts": null,
+      "Cores": 0,
+      "Language": 3
+    }
+  ]
+}
+
+```
+
+
 ## Web Service Endpoints
 
 The web service is hosted on Windows OS. The address and port are configurable, the following end points are supported:
