@@ -21,4 +21,10 @@ http://ServerName:8080/api/language
 
 Shows the supported script Modules.
 
+http://ServerName:8080/api/language/r?json={}
+http://ServerName:8080/api/language/python?json={}
+http://ServerName:8080/api/language/powershell?json={}
+
+
+
 
