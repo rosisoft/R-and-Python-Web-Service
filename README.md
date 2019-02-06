@@ -104,4 +104,13 @@ Each call provides this basic information
   <img src="Image/Web Service Result.PNG">
 </p>
 
+## JSON Data Model
+
+The following data model is used to submit calculations to the web service and retrieve responses.
+
+Dimension Enum:
+        Value = 0 
+        Vector = 1
+        Matrix = 2
+        Frame = 3
 
