@@ -22,8 +22,8 @@ All commands are executed from the command line in administrative mode:
 
 In addition, the following software has has to be installed:
 
-[R Version 5.2.2, 64bit](https://cran.r-project.org/bin/windows/base/R-3.5.2-win.exe)
-[Python Version 3.7.2, 64 bit](https://www.python.org/ftp/python/3.7.2/python-3.7.2-amd64.exe)
+[R Version 5.2.2, 64bit](https://cran.r-project.org/bin/windows/base/R-3.5.2-win.exe)</br>
+[Python Version 3.7.2, 64 bit](https://www.python.org/ftp/python/3.7.2/python-3.7.2-amd64.exe)</br>
 
 It is recommended to install bot program under the Windows x64 directory: C:\Program Files\
 
