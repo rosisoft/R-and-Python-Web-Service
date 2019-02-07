@@ -1,5 +1,5 @@
 # R-and-Python-Web-Service
-R and Python Web Service is a program developed to allow real-time calculations
+The R and Python Web Service is a program developed to allow script execution in real-time applications.
 
 ## Introduction
 There are several web services avalaible for R and Python, but there isn't a solution available for the following requirements:
@@ -14,22 +14,22 @@ R and Python code for advanced analytics has latency between milli-seconds and s
 7. Unified data model across different scripting languages; currently these are R, Python and PowerShell(beta)
 
 ## Installation
-All commands are executed from the command line in administrative mode:
-
-+ --install (installs the service)
-+ --uninstall (uninstalls the service)
-+ --cmd (starts the program as a Windows command line app)
-
+All commands are executed from the command line in administrative mode:</br>
+</br>
+--install (installs the service)</br>
+--uninstall (uninstalls the service)</br>
+--cmd (starts the program as a Windows command line app)</br>
+</br>
 In addition, the following software has has to be installed:
 
 [R Version 5.2.2, 64bit](https://cran.r-project.org/bin/windows/base/R-3.5.2-win.exe)</br>
 [Python Version 3.7.2, 64 bit](https://www.python.org/ftp/python/3.7.2/python-3.7.2-amd64.exe)</br>
 
-It is recommended to install bot program under the Windows x64 directory: C:\Program Files\
+It is recommended to install both programs under the Windows x64 directory: C:\Program Files\
 
 
 ## Configuration
-The service is configured using a JSON file in the instal, directory named "Analytic.Server.json".
+The service is configured using a JSON file in the install directory named "Analytic.Server.json".
 The following shows an example:
 ```json
 {
@@ -72,6 +72,7 @@ The following shows an example:
 
 ```
 The JSON contains both the configuration for the server and the script cores. The server requires to specify both the **address** and the **port**. Each core provides the following configuration items:</br>
+</br>
 "Executable" - Name of the core exe</br>
 "ExecutablePath" - Installation path of the web service</br>
 "CorePath1" - Configuration path; needs to be specified for R</br>
