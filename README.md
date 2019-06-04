@@ -83,27 +83,16 @@ The JSON contains both the configuration for the server and the script cores. Th
 "Language" - Enum specifying the scriping language</br>
 
 
-## Web Service Endpoints
+## Swagger Docs
 
-The web service is hosted on Windows OS. The address and port are configurable, the following end points are supported:
+The web service displays the Swagger docs:
 
-Shows the supported script Modules
-http://ServerName:8080/api/language
-
-<p align="center">
-  <img src="Image/Web Service Available Cores.PNG">
-</p>
-
-Calls the different cores</br>
-http://ServerName:8080/api/language/r?json={}</br>
-http://ServerName:8080/api/language/python?json={}</br>
-http://ServerName:8080/api/language/powershell?json={}</br>
-
-Each call provides this basic information
+http://localhost:8080/swagger/ui/index#/Uri
 
 <p align="center">
-  <img src="Image/Web Service Result.PNG">
+  <img src="Image/2019-06-04_07h06_00.png">
 </p>
+
 
 ## JSON Data Model
 
